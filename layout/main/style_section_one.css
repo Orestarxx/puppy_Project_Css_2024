@@ -1,0 +1,50 @@
+.section_one{
+    width: 1200px;
+    height: 728px;
+    display: flex;
+}
+.section_one>div{
+    width: 460px;
+    border: 1px solid;
+    margin: 163px 42px 243px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_one>div>h1{
+    width: 310px;
+    height: 114px;
+    color: #FFF;
+    font-family: "Georgia",sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%; /* 57.2px */
+}
+.section_one>div>p{
+    width: 470px;
+    height: 172px;
+    color: #CDCDCD;
+    font-family: "Arial",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+    margin-top: 42px;
+}
+.section_one>div>button{
+    width: 207px;
+    height: 52px;
+    color: #292929;
+    font-family: "Georgia",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+    border-radius: 100px;
+    background:  #F1CDB3;
+}
+.section_one>div>h1,
+.section_one>div>p,
+.section_one>div>button{
+    margin-left: 0;
+}

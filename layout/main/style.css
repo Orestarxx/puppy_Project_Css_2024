@@ -7,4 +7,62 @@
     width: 1280px;
     height: 3796px;
     border: 1px solid;
+    background:  radial-gradient(549.89% 73.65% at 5.73% 50%,#513D2F 0%,#1A1A1C 100%,#D3D3D3FF 300%), #211F20;
+
+
+}
+header{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:60px;
+}
+header>div:first-child{
+    width: 184px;
+    height: 60px;
+    margin-left: 0;
+}
+header>div:first-child>h1{
+    color: #F1CDB3;
+    width: 184px;
+    /* logo_title */
+    font-family: "Georgia",sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.70px;
+}
+header>div:first-child>p{
+    color: #FFF;
+
+    /* logo_subtitle */
+    font-family: "Arial",sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+header>nav>ul>li{
+    list-style-type: none;
+}
+header>nav>ul>li:hover{
+border-bottom: 2px solid #F1CDB3;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #CDCDCD;
+}
+header>nav:last-child{
+    margin-right: 0;
+}
+header>nav>ul{
+    display: flex;
+    gap: 35px;
+}
+main{
+    margin-top: 60px;
 }
