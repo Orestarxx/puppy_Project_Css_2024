@@ -1,0 +1,50 @@
+.section_four{
+    width: 100%;
+    height: 611px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_four>.holder{
+  margin: 80px 40px 100px 40px;
+    width: 1200px;
+    height: 430px;
+}
+.section_four>.holder>h1{
+    width: 309px;
+    height: 90px;
+    color:#545454;
+    text-align: center;
+    font-family:'Georgia',sans-serif ;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2px;
+}
+.section_four>.holder>div:last-of-type{
+    width: 1026px;
+    height: 280px;
+    margin-top: 60px;
+}
+.help_staff_one, .help_staff_two{
+    display: flex;
+    color:  #545454;
+    text-align: center;
+    /* h4 */
+    font-family: 'Georgia',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1px;
+}
+.help_staff_two{
+    margin-top: 55px;
+}
+.help_staff_two>div>p,
+.help_staff_one>div>p{
+    margin-top: 30px;
+}

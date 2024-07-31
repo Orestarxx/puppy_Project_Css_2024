@@ -1,0 +1,88 @@
+.section_three{
+    width: 100%;
+    height: 877px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pats_content{
+    width: 1200px;
+    height: 697px;
+    margin:80px 40px 100px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pats_content>h1{
+    width: 400px;
+    height: 90px;
+    color:  #545454;
+    text-align: center;
+    font-family: "Georgia",sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2px;
+}
+.pats_content>div:last-of-type{
+    width: 100%;
+    height: 435px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 0 105px 0 105px;
+    margin: 60px 0 60px 0;
+}
+.pats_content>div:last-of-type>div{
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pats_content>div:last-of-type>div>img{
+    width: 100%;
+}
+.pats_content>div:last-of-type>div>p{
+    color: #545454;
+    text-align: center;
+    /* pets-card-title */
+    font-family: 'Georgia',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 30px 0 30px 0;
+}
+.pats_content>div:last-of-type>div>button{
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: 2px solid  #F1CDB3;
+    background-color: white;
+    margin-bottom: 30px;
+    color: #292929;
+    font-family: 'Georgia',sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+}
+.pats_content>button{
+    padding: 15px 45px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    border: none;
+    color: #292929;
+    font-family: 'Georgia',sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+}

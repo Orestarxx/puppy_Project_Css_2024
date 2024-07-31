@@ -5,7 +5,6 @@
 }
 .section_one>div{
     width: 460px;
-    border: 1px solid;
     margin: 163px 42px 243px 0;
     display: flex;
     align-items: center;
@@ -32,8 +31,7 @@
     margin-top: 42px;
 }
 .section_one>div>button{
-    width: 207px;
-    height: 52px;
+    padding: 15px 45px;
     color: #292929;
     font-family: "Georgia",sans-serif;
     font-size: 17px;
