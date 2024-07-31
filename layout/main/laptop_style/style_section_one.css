@@ -11,7 +11,7 @@
     justify-content: center;
     flex-direction: column;
 }
-.section_one>div>h1{
+.section_one>div>h3{
     width: 310px;
     height: 114px;
     color: #FFF;
@@ -41,7 +41,7 @@
     border-radius: 100px;
     background:  #F1CDB3;
 }
-.section_one>div>h1,
+.section_one>div>h3,
 .section_one>div>p,
 .section_one>div>button{
     margin-left: 0;

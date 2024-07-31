@@ -7,8 +7,6 @@
     justify-content: center;
 }
 .section_two>article{
-    width: 1200px;
-    height: 408px;
     margin: 80px 40px 100px 40px;
     display: flex;
 }
@@ -18,7 +16,7 @@
 .section_two>article>div{
     width: 430px;
 }
-.section_two>article>div>h1{
+.section_two>article>div>h3{
     width: 370px;
     height: 90px;
     color:  #545454;

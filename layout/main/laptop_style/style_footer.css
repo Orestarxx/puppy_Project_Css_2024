@@ -9,7 +9,6 @@ footer{
 footer>div{
     width: 1200px;
     height: 310px;
-    border: 1px solid;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -69,4 +68,8 @@ footer>div{
     font-weight: 400;
     line-height: 115%; /* 23px */
     letter-spacing: 1px;
+}
+footer>div>img:last-child{
+    width: 300px;
+    height: 310px;
 }
