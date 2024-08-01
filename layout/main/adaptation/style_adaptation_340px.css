@@ -137,4 +137,7 @@
         line-height: 130%; /* 32.5px */
         letter-spacing: 1px;
     }
+    .card{
+        display: none;
+    }
 }
