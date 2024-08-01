@@ -7,6 +7,7 @@
     /*----- header ------*/
     .wrap{
         width: 320px;
+        height: 4806px;
     }
     header{
         height: 0;
@@ -16,7 +17,7 @@
         margin-top: 30px;
 
     }
-    .logo>nav{
+    header>nav>ul>li>a{
         display: none;
     }
     .logo>h1{
@@ -71,7 +72,6 @@
         width: 260px;
         height: 278px;
         margin: 0 10px 0 50px;
-
     }
     /*------- section two -------*/
     .section_two{
@@ -128,16 +128,182 @@
         width: 100%;
         height: 791px;
     }
+    .pats_content{
+        width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
     .pats_content>h1{
         color:  #545454;
         text-align: center;
         font-size: 25px;
+        font-weight: 400;
+        line-height: 130%; /* 32.5px */
+        letter-spacing: 1px;
+        width: 300px;
+        height: 64px;
+    }
+    .card:first-child{
+        display: flex;
+        width: 270px;
+        height: 435px;
+        padding:0 64px 30px 64px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        position: absolute;
+        left: 15px;
+    }
+    .cards{
+        margin-bottom: 72px;
+    }
+    .card:first-child>button{
+        width: 200px;
+        height: 52px;
+        margin: 0 41px 0 41px;
+        color:  #292929;
+        font-family: 'Georgia',sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 130%; /* 22.1px */
+        letter-spacing: 1px;
+    }
+    .cards>.card:nth-child(n+2){
+        display: none;
+    }
+    /*------- section four -------*/
+    .section_four{
+        width: 100%;
+        height: 745px;
+    }
+    .section_four>.holder{
+        width: 100%;
+        height:745px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section_four>.holder>h1{
+        width: 220px;
+        height: 64px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    .section_four>.holder>div:last-child{
+        width: 320px;
+        height: 555px;
+        display: flex;
+        margin-bottom: 42px;
+    }
+    .help_staff_two{
+        margin-top: 0;
+    }
+    .help_staff_one, .help_staff_two{
+        width: 50%;
+        height: 555px;
+        display: block;
+    }
+    .help_staff_one>div>svg,
+    .help_staff_two>div>svg{
+        width: 50px;
+        height: 50px;
+    }
+    .help_staff_two>div>p,
+    .help_staff_one>div>p{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    /*------- section five ------*/
+    .section_five{
+        width: 320px;
+        height: 542px;
+    }
+    .section_five>article{
+        width: 100%;
+        height: 542px;
+        flex-direction: column-reverse;
+    }
+    .section_five>article>img{
+        width: 260px;
+        height: 135px;
+        margin-bottom: 42px;
+    }
+    .donation_information{
+        margin:42px 0 42px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 320px;
+        gap: 20px;
 
+    }
+    .donation_information>h3{
+        width: 300px;
+        height: 64px;
+        text-align: center;
+        font-size: 25px;
         font-weight: 400;
         line-height: 130%; /* 32.5px */
         letter-spacing: 1px;
     }
-    .card{
-        display: none;
+    .donation_information>p:first-of-type{
+        width: 273px;
+        height: 24px;
+        font-size: 12px;
+        line-height: 160%; /* 24px */
+        margin: 0 23px;
+    }
+    .donation_information>div:first-of-type{
+        width: 281px;
+        height: 43px;
+        padding: 0;
+        margin: 10px 19px 10px 19px;
+    }
+    .donation_information>div:first-of-type>h4{
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 1px;
+    }
+    .donation_information>div:first-of-type>svg{
+        width: 30px;
+        height: 23px;
+        margin-left: 10px;
+    }
+    .donation_information>p:last-of-type{
+        width: 280px;
+        height: 90px;
+        margin: 0 20px;
+    }
+    /*------- footer ------*/
+    footer{
+        width: 320px;
+        height: 809px;
+    }
+    footer>div>img:last-child{
+        width: 260px;
+        height: 269px;
+    }
+    footer>div{
+        width: 100%;
+        height: 809px;
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .first_holder>ul>li:first-child>h3,
+    .second_holder>ul>li:first-child>h3{
+        height: 64px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1px;
     }
 }
